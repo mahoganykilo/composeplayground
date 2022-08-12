@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.composeplayground.compose.*
+import com.example.composeplayground.compose.BaseScaffold
 import com.example.composeplayground.databinding.FragmentFirstBinding
 
 /**
@@ -33,7 +33,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.composeView.setContent {
-            CardV5()
+            BaseScaffold()
         }
     }
 
