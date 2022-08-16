@@ -8,5 +8,6 @@ import androidx.compose.runtime.Composable
 @Composable
 fun BaseScaffold() {
     Scaffold {
+        CardV5()
     }
 }
